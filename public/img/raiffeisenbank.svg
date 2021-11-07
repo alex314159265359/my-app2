@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="16.9334mm" height="16.9334mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 8.22845 8.22845"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil2 {fill:#2C2B2A}
+    .fil1 {fill:#FBEB22}
+    .fil0 {fill:#010101;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+<symbol id="Fm3-475-0" viewBox="57.3552 -107.719 6.33881 8.93246">
+ <polygon class="fil0" points="57.3552,-107.719 63.694,-98.7866 63.694,-103.974 "/>
+</symbol>
+<symbol id="Fm0-469-0" viewBox="57.3551 -111.802 12.6776 6.62799">
+ <polygon class="fil0" points="63.6939,-111.802 57.3551,-108.921 63.6939,-105.174 70.0327,-108.921 "/>
+</symbol>
+<symbol id="Fm1-471-0" viewBox="57.3552 -119.439 6.33881 14.2645">
+ <polygon class="fil0" points="57.3552,-108.921 63.694,-105.174 63.694,-111.802 63.694,-119.439 "/>
+</symbol>
+<symbol id="Fm4-477-0" viewBox="63.6939 -107.719 6.34255 8.93246">
+ <polygon class="fil0" points="63.6939,-103.974 63.6939,-98.7866 70.0365,-107.719 "/>
+</symbol>
+<symbol id="Fm2-473-0" viewBox="63.6939 -119.439 6.33881 14.2645">
+ <polygon class="fil0" points="63.6939,-119.439 63.6939,-111.802 63.6939,-105.174 70.0327,-108.921 "/>
+</symbol>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_466465528">
+   <circle id="_466465600" class="fil1" cx="4.11422" cy="4.11424" r="4.1142"/>
+   <path id="_466465624" class="fil2" d="M1.53977 5.83014l0.750908 0.765486 1.75946 -1.78511 1.8183 1.82199 0.761938 -0.754504 -1.79993 -1.79989 0.345934 -0.334952 0 -0.714171 0.217162 -0.183973 0 0.5595 0.27975 0.228193 0.835508 -0.835605 0.268671 0.206083c0.158316,-0.585206 -0.758245,-1.91393 -1.51649,-1.17765l-0.883324 0.875938 0.180426 0.217211 -0.449242 0.437969 -0.434227 -0.42689 0.228144 -0.206229 -0.967973 -0.934929c-0.728749,-0.599881 -1.47596,0.312939 -1.50177,1.2036l0.265075 -0.220758 0.813398 0.875938 0.290829 -0.242868 0 -0.537439 0.180329 0.136109 0 0.703189 0.35332 0.353223 -1.79619 1.77053 0 0z"/>
+  </g>
+ </g>
+</svg>

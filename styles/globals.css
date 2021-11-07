@@ -1,0 +1,21 @@
+
+.modala {
+    position: absolute;
+    z-index: 999999;
+    padding-bottom: 300px;
+    min-height: 100%;
+}
+
+.wrapa {
+    width: 100% !important;
+    max-width: 100% !important;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.pl {
+    display: none;
+}
+
+.modal {
+    background: #0C162A;
+}
