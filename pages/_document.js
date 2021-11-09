@@ -21,7 +21,6 @@ class MyDocument extends Document {
             href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
           />
           {/*<script src="/js/Zv2EZ9wQnR" />*/}
-          <title>Биткоин обмен</title>
         </Head>
         <body>
           <Main />

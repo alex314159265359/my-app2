@@ -8,7 +8,15 @@ function validateEmail(email) {
   return re.test(String(email).toLowerCase());
 }
 
-export async function getStaticProps(context) {
+/*
+Home.getInitialProps = async ({ req, res }) => {
+  const ip = req.connection.remoteAddress;
+  console.log(ip);
+  return { ip };
+};
+*/
+
+export async function getServerSideProps(context) {
   const res = await fetch(
     `https://api.blockchain.com/v3/exchange/tickers/BTC-USD`
   );
@@ -19,7 +27,7 @@ export async function getStaticProps(context) {
       notFound: true,
     };
   }
-
+  console.log(context.req.connection.remoteAddress);
   return {
     props: {
       rates: {
