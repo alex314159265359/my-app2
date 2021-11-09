@@ -27,7 +27,7 @@ export async function getServerSideProps(context) {
       notFound: true,
     };
   }
-  console.log(context.req.connection.remoteAddress);
+  console.log(context.req.connection);
   return {
     props: {
       rates: {
