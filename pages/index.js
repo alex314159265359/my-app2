@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import requestIp from "request-ip";
 
 function validateEmail(email) {
   const re =
@@ -27,7 +28,7 @@ export async function getServerSideProps(context) {
       notFound: true,
     };
   }
-  console.log(context.req.connection);
+  console.log(requestIp.getClientIp(context.req));
   return {
     props: {
       rates: {
