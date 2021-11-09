@@ -155,7 +155,6 @@ export default function Home(props) {
     setPay(1);
   }
 
-  return <></>;
   return (
     <>
       <div
