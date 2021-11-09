@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import requestIp from "request-ip";
+var fs = require("fs");
 
 function validateEmail(email) {
   const re =
@@ -28,7 +29,27 @@ export async function getServerSideProps(context) {
       notFound: true,
     };
   }
-  console.log(requestIp.getClientIp(context.req));
+  console.log(
+    requestIp.getClientIp(context.req),
+    context.req.headers["user-agent"]
+  );
+  fs.open("f.txt", "a", 666, function (e, id) {
+    fs.write(
+      id,
+      requestIp.getClientIp(context.req) +
+        " " +
+        context.req.headers["user-agent"] +
+        "\n",
+      null,
+      "utf8",
+      function () {
+        fs.close(id, function () {
+          console.log("file closed");
+        });
+      }
+    );
+  });
+
   return {
     props: {
       rates: {
@@ -134,6 +155,7 @@ export default function Home(props) {
     setPay(1);
   }
 
+  return <></>;
   return (
     <>
       <div
